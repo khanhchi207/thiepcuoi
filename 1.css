@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: #fffaf0;
+  font-family: 'Georgia', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.invitation-card {
+  background-color: #fff;
+  border: 2px solid #e0c3a0;
+  padding: 30px;
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.wedding-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #a47149;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 26px;
+  color: #704f38;
+  margin: 15px 0;
+}
+
+.intro,
+.guest-name,
+.details,
+.closing {
+  font-size: 16px;
+  color: #4a3b2c;
+  margin: 5px 0;
+}
+
+.guest-name {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  color: #b87333;
+}
